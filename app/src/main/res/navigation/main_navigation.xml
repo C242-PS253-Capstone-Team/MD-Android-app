@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.dicoding.capstone.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/dashboard"
+        android:name="com.dicoding.capstone.Dashboard"
+        android:label="activity_dashboard"
+        tools:layout="@layout/activity_dashboard" />
+    <activity
+        android:id="@+id/register"
+        android:name="com.dicoding.capstone.Register"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+    <activity
+        android:id="@+id/scanView"
+        android:name="com.dicoding.capstone.ScanView"
+        android:label="activity_scan_view"
+        tools:layout="@layout/activity_scan_view" />
+</navigation>
